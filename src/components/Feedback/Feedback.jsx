@@ -1,4 +1,4 @@
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 import React from 'react';
 import Section from './Section';
 import FeedbackOptions from './FeedbackOptions';
