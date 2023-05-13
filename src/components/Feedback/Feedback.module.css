@@ -1,0 +1,57 @@
+.Feedback {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.Title {
+  text-align: center;
+  font-size: 36px;
+}
+
+.ButtonWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.Button {
+  width: 100%;
+  padding: 5px 5px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  background-color: #941d1d;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.Button:hover {
+  background-color: #ff0000;
+}
+
+.Statistics {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.Statistics p {
+  margin: 5px 0;
+}
+
+.PositiveFeedback {
+  color: #259c29;
+  font-weight: bold;
+}
+
+.Notification {
+  text-align: center;
+  font-size: 24px;
+  color: rgba(73, 33, 33, 0.664);
+}
