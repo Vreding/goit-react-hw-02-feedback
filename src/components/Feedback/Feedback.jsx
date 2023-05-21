@@ -40,7 +40,7 @@ export class Feedback extends React.Component {
           />
         </Section>
         <Section title="Statistics">
-          {this.totalFeedback ? (
+          {this.totalFeedback() ? (
             <Statistics
               good={good}
               neutral={neutral}
